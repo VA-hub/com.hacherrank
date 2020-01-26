@@ -2,7 +2,7 @@ package Java30d;
 
 import java.util.Scanner;
 
-public class DataTypes {
+public class DataTypesDay1 {
     public static void main(String[] args) {
         int i = 4;
         double d = 4.0;

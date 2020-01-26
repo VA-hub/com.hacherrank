@@ -2,10 +2,10 @@ package Java30d;
 
 import java.util.Scanner;
 
-public class Person {
+public class PersonDay4 {
     private int age;
 
-    public Person(int initialAge) {
+    public PersonDay4(int initialAge) {
         this.age = initialAge;
         if (initialAge >= 0){
             this.age = initialAge;
@@ -31,7 +31,7 @@ public class Person {
         int T = sc.nextInt();
         for (int i = 0; i < T; i++) {
             int age = sc.nextInt();
-            Person p = new Person(age);
+            PersonDay4 p = new PersonDay4(age);
             p.amIOld();
             for (int j = 0; j < 3; j++) {
                 p.yearPasses();

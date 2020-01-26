@@ -1,13 +1,11 @@
-package DataStructures;
+package Java30d;
 
 import java.util.Scanner;
 
-public class Java2DArray {
-
+public class Arrays2DDay11 {
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-
         int[][] arr = new int[6][6];
         int maxS = Integer.MIN_VALUE;
         for (int i = 0; i < 6; i++) {
@@ -32,4 +30,3 @@ public class Java2DArray {
         scanner.close();
     }
 }
-
